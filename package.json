@@ -33,7 +33,7 @@
     "postinstall": "husky install"
   },
   "lint-staged": {
-    "*.{js,vue,ts,tsx}": [
+    "*.{js,jsx,ts,tsx}": [
       "npx eslint --fix"
     ],
     "*.{css,scss}": [
